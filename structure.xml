@@ -1,0 +1,20 @@
+<structure>
+	<narrativeSequence id="1" title="Intro Sequence">
+		<videoScene src="videos/salle-de-lecture.webm#t=0" data-timeline-sources="videos/intro.xml"/>
+	</narrativeSequence>
+	
+	<narrativeSequence id="2" title="Bridge 01">
+		<videoScene src="videos/navigational-bridge-01.webm#t=1" data-timeline-sources="videos/navigational-bridge.xml"/>
+		<videoScene src="videos/salle-de-lecture.webm#t=14" data-timeline-sources="videos/intro.xml"/>
+	</narrativeSequence>
+	
+	<narrativeSequence id="3" title="Police Archives">
+		<videoScene src="videos/police-archives.webm#t=5" data-timeline-sources="videos/police.xml"/>
+		<narrativeNode direction="after" destinationSequences="4,2"/>
+	</narrativeSequence>
+	
+	<narrativeSequence id="4" title="Travaux Publics">
+		<videoScene src="videos/travaux-publics.webm#t=0" data-timeline-sources="videos/travaux-publics.xml"/>
+		<narrativeNode direction="after" destinationSequences="3,2"/>
+	</narrativeSequence>
+</structure>

@@ -1,0 +1,57 @@
+<popcorn>
+	<manifest>
+		<people>
+     	</people>
+		<places>
+		</places>
+		<articles>
+		</articles>
+		<documents>
+			<resource id="secondhotspot" src="http://uri.to/archive#box" description="Hypervideo Hotspot" lang="en">
+				<document type="img" src="./documents/tn_pol-01.jpg" target="box8" top="52" left="60" width="20" height="28"/>
+			</resource>
+			<resource id="new1" src="http://uri.to/archive#box" description="Hypervideo Hotspot" lang="en">
+				<document type="img" src="./documents/tn_pol-30.jpg" target="box25" top="4" left="3" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-31.jpg" target="box26" top="68" left="3" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-32.jpg" target="box27" top="36" left="3" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-07.jpg" target="box28" top="4" left="87" width="10" height="28"/>
+			</resource>
+			<resource id="hyperdoc" src="http://uri.to/archive#box" description="Hypervideo Hotspot" lang="en">
+				<document type="img" src="./documents/tn_pol-05.jpg" target="box6" top="14" left="12" width="20" height="57"/>
+			</resource>
+			<resource id="testdoc05" src="http://uri.to/archive#box" description="Hypervideo Hotspot" lang="en">
+				<document type="img" src="./documents/tn_pol-03.jpg" target="box19" top="7" left="27" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-09.jpg" target="box20" top="54" left="66" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-14.jpg" target="box21" top="7" left="66" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-26.jpg" target="box35" top="54" left="47" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-29.jpg" target="box36" top="7" left="47" width="10" height="28"/>
+			</resource>
+			<resource id="testdoc01" src="http://uri.to/archive#box" description="Hypervideo Hotspot" lang="en">
+				<document type="img" src="./documents/tn_pol-28.jpg" target="box13" top="53" left="67" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-13.jpg" target="box7" top="53" left="86" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-15.jpg" target="box9" top="7" left="67" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-21.jpg" target="box30" top="7" left="86" width="10" height="28"/>
+			</resource>
+			<resource id="testdoc02" src="http://uri.to/archive#box" description="Hypervideo Hotspot" lang="en">
+				<document type="img" src="./documents/tn_pol-10.jpg" target="box14" top="53" left="82" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-12.jpg" target="box31" top="53" left="61" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-18.jpg" target="box32" top="7" left="82" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-23.jpg" target="box33" top="7" left="61" width="10" height="28"/>
+				<document type="img" src="./documents/tn_pol-25.jpg" target="box34" top="7" left="40" width="10" height="28"/>
+			</resource>
+		</documents>
+	</manifest>
+	<timeline>
+		<resources>			
+			<hypervideo resourceid="secondhotspot" in="00:00:12:00" out="00:00:15:00" target="hotspot002" top="11" left="36" width="10" height="87"/>
+			<hypervideo resourceid="new1" in="00:00:59:00" out="00:01:02:00" target="hotspot003" top="26" left="45" width="6" height="43"/>
+			<hypervideo resourceid="hyperdoc" in="00:01:50:00" out="00:01:53:00" target="hotspot001" top="25" left="47" width="24" height="34"/>
+			<hypervideo resourceid="testdoc05" in="00:02:20:00" out="00:02:23:00" target="bingtest05" top="44" left="5" width="35" height="53"/>
+			<hypervideo resourceid="testdoc01" in="00:02:40:00" out="00:02:43:00" target="bingtest" top="29" left="6" width="52" height="66"/>
+			<hypervideo resourceid="testdoc02" in="00:03:06:00" out="00:03:09:00" target="bingtest02" top="46" left="26" width="26" height="48"/>
+			<hypervideo resourceid="new1" in="00:03:24:00" out="00:03:27:00" target="new2" top="11" left="22" width="54" height="59"/>
+		</resources>
+		<footnotes>
+		</footnotes>
+	</timeline>
+</popcorn>
